@@ -12,3 +12,10 @@ const Navbar = () => {
  
 export default Navbar;
 
+/*
+style={{
+    color: "white",
+    backgroundColor: '#f1356d',
+    borderRadius: '8px'
+}}
+*/
