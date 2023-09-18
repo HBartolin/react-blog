@@ -9,7 +9,7 @@ const useFetch = (url) => {
         fetch(url)
             .then(res => { 
                 if(!res.ok) {
-                    throw Error("fetch greska")
+                    throw Error("fetch greska");
                 }
 
                 return res.json(); 
